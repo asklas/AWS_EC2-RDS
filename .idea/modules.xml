@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AWS_EC2-RDS.iml" filepath="$PROJECT_DIR$/.idea/AWS_EC2-RDS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AWS_EC2-RDS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AWS_EC2-RDS.main.iml" />
     </modules>
   </component>
 </project>
