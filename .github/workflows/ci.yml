@@ -23,7 +23,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew clean build
       - run: touch ./src/main/resources/application.properties
-      - run: echo "${{secrets.APPLICATIONS}}" > ./src/main/resources/application.properties
+      - run: echo "${{secrets.APPLICATIONS}}" > ./src/main/resources/application-dev.properties
 
       - uses: actions/upload-artifact@v3
         with:
